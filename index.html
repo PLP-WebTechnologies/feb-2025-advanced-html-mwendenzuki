@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML</title>
+    <h1>Advanced HTML Assignment</h1>
+  </head>
+  <body>
+    <p>
+      These are the languages one should know in order to be a good web
+      developer:
+    </p>
+    <ol type="i">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>SQL</li>
+    </ol>
+    <p>How I feel after finishing one HTML assignment:</p>
+    <img
+      src="https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt=""
+      height="600"
+      width="600"
+    />
+
+    <h2>My First Form</h2>
+    <form action="" method="">
+      <label for="full_name">Full name: </label>
+      <input
+        type="text"
+        id="full_name"
+        name="full_name"
+        placeholder="Enter your full name"
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter a valid email"
+        required
+      />
+      <br /><br />
+
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter a strong password"
+        required
+      />
+      <br /><br />
+
+      <label for="date">Date of birth: </label>
+      <input type="date" name="date" required />
+      <br /><br />
+
+      <label for="languages">Favourite coding languages: </label>
+      <select name="languages" id="languages">
+        <option>---Select a Language---</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVA">JAVA</option>
+        <option value="JAVASCRIPT">JAVASCRIPT</option>
+        <option value="DART">DART</option>
+      </select>
+      <br /><br />
+
+      <label for="learning-process">How did you learn programming: </label>
+      <input
+        type="radio"
+        name="learning-process"
+        value="self-taught"
+      />Self-taught
+      <input
+        type="radio"
+        name="learning-process"
+        value="coding-school"
+      />Through a coding school
+      <input
+        type="radio"
+        name="learning-process"
+        value="university-degree"
+      />University degree <br /><br />
+
+      <label for="experience">Coding Experience Level: </label>
+      <input type="checkbox" name="experience" value="Beginner" />Beginner
+      <input
+        type="checkbox"
+        name="experience"
+        value="Intermediate"
+      />Intermediate
+      <input type="checkbox" name="experience" value="Advanced" />Advanced
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+      <button type="reset">Cancel</button>
+    </form>
+  </body>
+</html>
